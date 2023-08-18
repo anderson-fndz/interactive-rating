@@ -1,5 +1,7 @@
 # interactive-rating
-Programa que recebe a avaliação do usuário e logo após "redireciona" para uma página de obrigado
+Programa que recebe a avaliação do usuário e logo após "redireciona" para uma página de obrigado. <br>
+link do projeto: https://anderson-fndz.github.io/interactive-rating/
+
 
 ## Imagens do projeto:
 ![image](https://github.com/anderson-fndz/interactive-rating/assets/103613700/acbc20df-9a7d-4daf-afe7-d5cb6328ad81)
