@@ -77,6 +77,7 @@ p {
 }
 
 .circle:hover {
+    transition: .8s;
     background-color: #7B8898;
     color: #fff;
     cursor: pointer;
@@ -100,6 +101,7 @@ p {
 }
 
 .btn-submit:hover {
+    transition: .5s;
     cursor: pointer;
     background-color: #fff;
     color: #D96F21;
