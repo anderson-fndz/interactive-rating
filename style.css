@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: #121417;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 415px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #1F2630;
+    color: #ffffff;
+}
+
+.box {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-img {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #262F38;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.circles-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #262F38;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.circle:hover {
+    background-color: #7B8898;
+    color: #fff;
+    cursor: pointer;
+}
+
+.circle:active {
+    color: #fff;
+    background-color: #7B8898;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 45px;
+    background-color: #D96F21;
+    border-radius: 22px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #D96F21;
+    font-weight: 400;
+}
+
+/* THANK YOU*/
+
+.thank-you {
+    width: 410px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    background-color: #1F2630;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tk-box {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tk-image {
+    width: 170px;
+    margin: 0 auto;
+}
+
+#text {
+    width: 195px;
+    margin: 30px auto;
+    padding: 5px 0px;
+    border-radius: 25px;
+    background-color: #262F38;
+    color: #D96F21;
+    text-align: center;
+}
+
+.tk-h1 {
+    margin-bottom: 15px;
+}
+
+
+.labels{
+    width: 30px;
+    height: 30px;
+    background-color: #7B8898;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    display: none;
+    width: 20px;
+}
+
+input:checked + .circle{
+    background-color: #D96F21;
+    color: #fff;
+}
