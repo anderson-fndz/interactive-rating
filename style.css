@@ -150,7 +150,7 @@ p {
 }
 
 
-.labels{
+.labels {
     width: 30px;
     height: 30px;
     background-color: #7B8898;
@@ -160,12 +160,32 @@ p {
     justify-content: center;
 }
 
-input{
+input {
     display: none;
     width: 20px;
 }
 
-input:checked + .circle{
+input:checked+.circle {
     background-color: #D96F21;
     color: #fff;
+}
+
+@media (max-width: 375px) {
+
+    .container,
+    .thank-you {
+        width: 350px;
+        height: 365px; ;
+        margin: 0px 15px 0px 0px;
+        border-radius: 20px;
+    }
+    #text {
+        width: 195px;
+        margin: 20px auto;
+        padding: 5px 0px;
+        border-radius: 25px;
+        background-color: #262F38;
+        color: #D96F21;
+        text-align: center;
+    }
 }
