@@ -11,31 +11,41 @@
 </head>
 
 <body>
-    <section>
+    <main>
+
+        <div class="modal">
+            <div class="modal-content">
+                <h1 style="color:#ea1e1ed9">Ooops!</h1>
+                <p>Please give a note before submitting.</p>
+                <button onclick="closeModal()" class="modal-btn">Close</button>
+            </div>
+        </div>
+
         <div class="container">
             <div class="box">
                 <div class="container-img"><img src="images/icon-star.svg " alt="image star"></div>
                 <h1>How did we do?</h1>
                 <p>Please let us know how we did with your support request. All feedback is aprecciated to help us
                     improve our offering!</p>
-                <div class="circles-box">
-                    <input onclick="insert(1)" type="radio" name="box" id="input1">
-                    <label class="circle" for="input1">1</label>
+                <form id="form">
+                    <fieldset class="circles-box">
+                        <input type="radio" name="inputradio" id="input1" value="1">
+                        <label class="circle" for="input1">1</label>
 
-                    <input onclick="insert(2)" type="radio" name="box" id="input2">
-                    <label class="circle" for="input2">2</label>
+                        <input type="radio" name="inputradio" id="input2" value="2">
+                        <label class="circle" for="input2">2</label>
 
-                    <input onclick="insert(3)" type="radio" name="box" id="input3">
-                    <label class="circle" for="input3">3</label>
+                        <input type="radio" name="inputradio" id="input3" value="3">
+                        <label class="circle" for="input3">3</label>
 
-                    <input onclick="insert(4)"type="radio" name="box" id="input4">
-                    <label class="circle" for="input4">4</label>
+                        <input type="radio" name="inputradio" id="input4"" value=" 4">
+                        <label class="circle" for="input4">4</label>
 
-                    <input onclick="insert(5)" type="radio" name="box" id="input5">
-                    <label class="circle" for="input5">5</label>
-
-                </div>
-                <button onclick="clickBtn()" class="btn-submit">SUBMIT</button>
+                        <input type="radio" name="inputradio" id="input5" value="5">
+                        <label class="circle" for="input5">5</label>
+                    </fieldset>
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+                </form>
             </div>
         </div>
         <div class="thank-you">
@@ -47,7 +57,7 @@
                     get in touch!</p>
             </div>
         </div>
-    </section>
+    </main>
 
 </body>
 
