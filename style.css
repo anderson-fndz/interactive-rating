@@ -177,7 +177,7 @@ input:checked+.circle {
     height: 100vh;
     width: 100vw;
     background-color: #000000db;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
